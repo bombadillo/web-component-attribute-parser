@@ -1,0 +1,29 @@
+{
+  "name": "web-component-attribute-parser",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "web-components"
+  ],
+  "author": "bombadillo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombadillo/web-component-attribute-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bombadillo/web-component-attribute-parser/issues"
+  },
+  "homepage": "https://github.com/bombadillo/web-component-attribute-parser#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  }
+}
